@@ -1,0 +1,19 @@
+.cell {
+    background-color: #eee;
+    padding: 0.25em 0.5em;
+    border: dashed 1px navy;
+  }
+  
+  .two {
+    background-color: springgreen;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 5;
+  }
+  
+  main {
+    background-color:cadetblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }

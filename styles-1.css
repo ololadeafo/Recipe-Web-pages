@@ -1,0 +1,15 @@
+main {
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 200px 300px;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .cell {
+    background-color:pink;
+    border: solid 1px black;
+    padding: 0.5em;
+  }

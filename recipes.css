@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@200&display=swap');
+
+header {
+    text-shadow: 1px 1px 2px #F45379;
+}
+body {
+    background-color:aliceblue;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sono', sans-serif;
+    font-size: smaller;
+}
+h1 {
+    color:lightpink;
+}
+h2 {
+    text-shadow: 1px 1px 2px pink;
+}
+.four-equal-columns {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 300px 300px;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color:hotpink;
+}
+main {
+    grid-template-columns: 100px;
+    padding: 16px;
+}
+footer{
+    background-color: #DCBCE6;
+    padding: 24px 0px 24px 0px;
+}
+img{
+    height: 200px;
+}
+nav{
+    background-color: #C8D5E6;
+    border-bottom: 1px;
+    border-bottom-color: black;
+    padding: 16px;
+}
+nav:hover {
+    background-color: rgb(227, 233, 229);
+}
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+tr:nth-child(odd) {
+    background-color:lavender;
+}
+th {
+    color:#F45379;
+}
+.fade-in {
+    animation: fade-img 5s;
+}
+@keyframes fade-img {
+    0% { opacity: 0; }
+  100% { opacity: 1; }
+}
